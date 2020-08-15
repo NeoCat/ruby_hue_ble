@@ -87,7 +87,7 @@ end
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/NeoaCat/ruby_hue_ble.
+Bug reports and pull requests are welcome on GitHub at https://github.com/NeoCat/ruby_hue_ble.
 
 ## License
 
