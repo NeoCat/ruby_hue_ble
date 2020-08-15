@@ -1,4 +1,4 @@
-# HueBLE
+# Ruby HueBLE gem
 
 This gem enables to control Hue light bulbs which support Bluetooth LE using Ruby.
 
