@@ -13,10 +13,13 @@ This gem is very experimental and unstable.
 
 ## Installation
 
-Add this line to your application's Gemfile:
+Add these lines to your application's Gemfile:
 
 ```ruby
 gem 'hue_ble'
+
+# ruby_ble-1.0.0 is not compatible with recent bluez DBus interface, so use patched version...
+gem 'ble', git: 'https://gitlab.com/NeoCat/ruby-ble.git'
 ```
 
 And then execute:
