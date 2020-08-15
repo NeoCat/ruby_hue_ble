@@ -32,7 +32,7 @@ Or install it yourself as:
 At first, reset the Hue bulbs using Hue Bluetooth app on your smartphone. 
 Then, you need to scan bulbs and pair with them:
 
-```
+```ruby
 require 'hue_ble'
 HueBLE.scan_cli
 ```
@@ -45,7 +45,7 @@ This scan will also add the already paired bulbs to the HueBLE class. (So you ne
 
 Once bulbs are added, you can control them as followings:
 
-```
+```ruby
 def all_on
   HueBLE.hues.each_value { |hue| hue.on }
 end
